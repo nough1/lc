@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 2021.12.23 开始
+ * 2021.12.23 开始 - 第一阶段目标，先把所有简单的问题都解决掉 .
  */
 public class LC1 {
 
