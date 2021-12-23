@@ -6,6 +6,7 @@ import java.util.Map;
 
 /**
  * 2021.12.23 开始 - 第一阶段目标，先把所有简单的问题都解决掉 .
+ *
  */
 public class LC1 {
 
@@ -27,6 +28,7 @@ public class LC1 {
 
             int other = target-nums[i];
             System.out.println(other);
+            // 需要注意同一个元素不能重复利用
             if(valueIndexMap.get(other)!=null && valueIndexMap.get(other)!=i){
 
                 System.out.println(other);
