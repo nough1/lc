@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunManager">
     <configuration name="LC1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -73,17 +77,36 @@
       <option name="presentableId" value="Default" />
       <updated>1640268507793</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1640272488654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640272488654</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <created>1640272566441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640272566441</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="WindowStateProjectService">
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1640268615452">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
-    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1640272488407">
+    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1640272566176">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1640272488407" />
+    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1640272566176" />
     <state width="1358" height="183" key="GridCell.Tab.0.bottom" timestamp="1640272205266">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -100,13 +123,17 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1358" height="183" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1640272205265" />
-    <state x="223" y="40" key="SettingsEditor" timestamp="1640272133991">
+    <state x="223" y="40" key="SettingsEditor" timestamp="1640439543044">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640272133991" />
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1640272490432">
+    <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1640272567722">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1640272490432" />
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1640272567722" />
+    <state x="303" y="126" width="837" height="550" key="find.popup" timestamp="1640439386269">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="303" y="126" width="837" height="550" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1640439386269" />
   </component>
 </project>
