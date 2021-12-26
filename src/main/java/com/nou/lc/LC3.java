@@ -4,7 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 考察双指针以及滑动窗口
+ * 考察双指针以及滑动窗口,问题
+ * 最长不重复子串，利用滑动窗口来解.
  */
 public class LC3 {
 
