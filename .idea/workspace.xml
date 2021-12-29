@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/array/LC54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/structure/LC1047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/structure/LC20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640619847375</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="j的边界初始值bug">
+      <created>1640706697255</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640706697255</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,10 +145,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
-    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1640619847239">
+    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1640706697080">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1640619847239" />
+    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1640706697080" />
     <state width="1358" height="183" key="GridCell.Tab.0.bottom" timestamp="1640272205266">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -161,10 +169,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1640619849252">
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1640706698675">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1640619849252" />
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1640706698675" />
     <state x="303" y="126" width="837" height="550" key="find.popup" timestamp="1640439386269">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
