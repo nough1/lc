@@ -1,7 +1,9 @@
 package com.nou.lc;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 /**
  * 考察双指针以及滑动窗口,问题
@@ -28,4 +30,42 @@ public class LC3 {
         return result;
     }
 
+    // 边界点：什么时候更新 maxLength ,break 后，忘记考虑正常循环结束的情况.
+    public int lengthOfLongestSubstringBaoli(String s){
+
+        if(s==null ||s.length()==0){
+            return 0;
+        }
+        char[] sArr = s.toCharArray();
+        int maxLength = 0;
+        int size = s.length();
+        for(int i=0;i<size;i++){
+
+            Set<Character> word = new HashSet<>();
+            word.add(sArr[i]);
+            int j;
+            for(j=i+1;j<size;j++){
+
+                if(word.contains(sArr[j])){
+                    break;
+                }else{
+                    word.add(sArr[j]);
+                }
+
+            }
+            if(j-i>maxLength){
+                maxLength = j-i;
+            }
+
+
+        }
+        return maxLength;
+
+    }
+
+    public static void main(String[] args) {
+        LC3 lc3 = new LC3();
+
+        System.out.println(lc3.lengthOfLongestSubstringBaoli(" "));
+    }
 }

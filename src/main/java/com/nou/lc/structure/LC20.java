@@ -36,4 +36,9 @@ public class LC20 {
         return stack.isEmpty();
     }
 
+
+    public static void main(String[] args) {
+        System.out.printf("%d",1234^5678);
+    }
+
 }

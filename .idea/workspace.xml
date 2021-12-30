@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/structure/LC1047.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/structure/LC20.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/structure/LC20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/structure/LC20.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LC3">
     <configuration name="LC1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nou.lc.LC1" />
       <module name="com.nou.2022" />
@@ -59,8 +59,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nou.lc.structure.LC20" />
+      <module name="com.nou.2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nou.lc.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nou.lc.LC3" />
+      <module name="com.nou.2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nou.lc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC3" />
+        <item itemvalue="Application.LC20" />
         <item itemvalue="Application.LC1" />
       </list>
     </recent_temporary>
@@ -132,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640706697255</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="j的边界初始值bug">
+      <created>1640794835316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1640794835316</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,37 +180,48 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
-    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1640706697080">
+    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1640794835158">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1640706697080" />
-    <state width="1358" height="183" key="GridCell.Tab.0.bottom" timestamp="1640272205266">
+    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1640794835158" />
+    <state width="1358" height="183" key="GridCell.Tab.0.bottom" timestamp="1640880255707">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="183" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1640272205266" />
-    <state width="1358" height="183" key="GridCell.Tab.0.center" timestamp="1640272205265">
+    <state width="1358" height="183" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1640880255707" />
+    <state width="1358" height="183" key="GridCell.Tab.0.center" timestamp="1640880255707">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="183" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1640272205265" />
-    <state width="1358" height="183" key="GridCell.Tab.0.left" timestamp="1640272205264">
+    <state width="1358" height="183" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1640880255707" />
+    <state width="1358" height="183" key="GridCell.Tab.0.left" timestamp="1640880255706">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="183" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1640272205264" />
-    <state width="1358" height="183" key="GridCell.Tab.0.right" timestamp="1640272205265">
+    <state width="1358" height="183" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1640880255706" />
+    <state width="1358" height="183" key="GridCell.Tab.0.right" timestamp="1640880255707">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="183" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1640272205265" />
+    <state width="1358" height="183" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1640880255707" />
     <state x="223" y="40" key="SettingsEditor" timestamp="1640439543044">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1640706698675">
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1640794836557">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1640706698675" />
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1640794836557" />
     <state x="303" y="126" width="837" height="550" key="find.popup" timestamp="1640439386269">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="303" y="126" width="837" height="550" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1640439386269" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/nou/lc/LC3.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
