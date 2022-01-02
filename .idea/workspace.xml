@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/nou/lc/LC1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nou/lc/LC1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC25.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640880370157</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="j的边界初始值bug">
+      <created>1641114894392</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1641114894392</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,10 +193,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
-    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1640880370003">
+    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1641114894224">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1640880370003" />
+    <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1641114894224" />
     <state width="1358" height="183" key="GridCell.Tab.0.bottom" timestamp="1640880255707">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -212,10 +217,10 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1640880371391">
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1641114895965">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1640880371391" />
+    <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1641114895965" />
     <state x="303" y="126" width="837" height="550" key="find.popup" timestamp="1640439386269">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

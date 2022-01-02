@@ -3,7 +3,10 @@ package com.nou.lc.link;
 import com.nou.lc.ListNode;
 
 /**
- * 链表 k 组反转
+ * 链表 k 组反转 ,
+ * 这个题目有两个理解误区
+ * 一个是在内部反转的时候， before ,after 的操作，必须借助相对变量 , 而不是用 a = a.next 这种
+ * 第二个坑一组之后是在 a , b 最终的指向位置的理解 .
  */
 public class LC25 {
 
