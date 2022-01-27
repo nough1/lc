@@ -25,8 +25,9 @@ public class LC24 {
             b.next = c.next;
             c.next = b;
 
-            // third step : 开启下一个循环，但是为什么正确的是 a=b; 之前自己写成 a= c;
-            a = c;
+            // third step : 开启下一个循环，但是为什么正确的是 a=b; 之前自己写成 a= c ,
+            // 确实得画图 , 画了一下图，立即就明白了 .
+            a = b;
 
         }
 
