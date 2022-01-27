@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/structure/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/base/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/bfs/LC103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/bfs/LC199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/bs/LC69.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC92.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +48,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.LC3">
+  <component name="RunManager" selected="Application.LC69">
     <configuration name="LC1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nou.lc.LC1" />
       <module name="com.nou.2022" />
@@ -86,8 +90,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nou.lc.bs.LC69" />
+      <module name="com.nou.2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nou.lc.bs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC69" />
         <item itemvalue="Application.LC3" />
         <item itemvalue="Application.LC20" />
         <item itemvalue="Application.LC1" />
@@ -189,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641115128582</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="j的边界初始值bug">
+      <created>1642518216133</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642518216133</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -202,42 +227,54 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
-    <state x="346" y="23" key="CommitChangelistDialog2" timestamp="1641115128434">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="308" y="25" key="CommitChangelistDialog2" timestamp="1642518215929">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1641115128434" />
-    <state width="1358" height="228" key="GridCell.Tab.0.bottom" timestamp="1641305899412">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1642518215929" />
+    <state width="1236" height="158" key="GridCell.Tab.0.bottom" timestamp="1642999314092">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state width="1358" height="228" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1641305899412" />
-    <state width="1358" height="228" key="GridCell.Tab.0.center" timestamp="1641305899409">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1236" height="158" key="GridCell.Tab.0.bottom/0.25.1280.690@0.25.1280.690" timestamp="1642999314092" />
+    <state width="1236" height="158" key="GridCell.Tab.0.center" timestamp="1642999314091">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state width="1358" height="228" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1641305899409" />
-    <state width="1358" height="228" key="GridCell.Tab.0.left" timestamp="1641305899407">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1236" height="158" key="GridCell.Tab.0.center/0.25.1280.690@0.25.1280.690" timestamp="1642999314091" />
+    <state width="1236" height="158" key="GridCell.Tab.0.left" timestamp="1642999314090">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state width="1358" height="228" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1641305899407" />
-    <state width="1358" height="228" key="GridCell.Tab.0.right" timestamp="1641305899411">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1236" height="158" key="GridCell.Tab.0.left/0.25.1280.690@0.25.1280.690" timestamp="1642999314090" />
+    <state width="1236" height="158" key="GridCell.Tab.0.right" timestamp="1642999314091">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state width="1358" height="228" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1641305899411" />
-    <state x="223" y="40" key="SettingsEditor" timestamp="1640439543044">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state width="1236" height="158" key="GridCell.Tab.0.right/0.25.1280.690@0.25.1280.690" timestamp="1642999314091" />
+    <state x="198" y="25" key="SettingsEditor" timestamp="1642692232365">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
-    <state x="322" y="141" key="Vcs.Push.Dialog.v2" timestamp="1641115129720">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="198" y="25" key="SettingsEditor/0.25.1280.690@0.25.1280.690" timestamp="1642692232365" />
+    <state x="286" y="127" key="Vcs.Push.Dialog.v2" timestamp="1642518217796">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1641115129720" />
-    <state x="399" y="234" key="com.intellij.ide.util.TipDialog" timestamp="1641306805902">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1642518217796" />
+    <state x="355" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1642692250772">
+      <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="399" y="234" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1641306805902" />
+    <state x="355" y="208" key="com.intellij.ide.util.TipDialog/0.25.1280.690@0.25.1280.690" timestamp="1642692250772" />
     <state x="303" y="126" width="837" height="550" key="find.popup" timestamp="1640439386269">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="303" y="126" width="837" height="550" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1640439386269" />
+    <state x="305" y="25" width="670" height="676" key="search.everywhere.popup" timestamp="1642690409771">
+      <screen x="0" y="25" width="1280" height="690" />
+    </state>
+    <state x="305" y="25" width="670" height="676" key="search.everywhere.popup/0.25.1280.690@0.25.1280.690" timestamp="1642690409771" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
