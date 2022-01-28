@@ -37,32 +37,50 @@ public class LC143 {
 
         // 后面的链表进行反转
 
-        reverse(slow);
+        ListNode reverseNode =  reverse(slow);
+
+        printLinkList(head);
+        printLinkList(reverseNode);
 
         // 两部分进行合并
 
-        merge(head,slow);
+        merge(head,reverseNode);
+    }
+
+    public void printLinkList(ListNode head){
+
+        ListNode currentNode = head;
+        while (currentNode!=null){
+
+
+            System.out.println(currentNode.val);
+            currentNode = currentNode.next;
+
+        }
+
     }
 
     /**
      * 链表反转
      * @param head
      */
-    public void reverse(ListNode head){
+    public ListNode reverse(ListNode head){
 
         if(head==null || head.next==null){
-            return;
+            return head ;
         }
 
         ListNode pre = null ;
         ListNode current = head;
         while(current!=null){
 
+            ListNode oldNextNode = current.next;
+            current.next = pre;
             pre = current;
-            current.next.next = current;
-            current = current.next;
+            current = oldNextNode;
         }
 
+        return  pre;
     }
 
     /**
@@ -77,8 +95,16 @@ public class LC143 {
         }
         while (l1!=null){
 
-
-
+            ListNode oldL1NextNode = l1.next;
+            ListNode oldL2NextNode = l2.next;
+            l1.next = l2;
+            //这里为什么要这样写 .
+            if(oldL1NextNode==null){
+                break;
+            }
+            l2.next = oldL1NextNode;
+            l1 = oldL1NextNode;
+            l2 = oldL2NextNode;
         }
     }
 
