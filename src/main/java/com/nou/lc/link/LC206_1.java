@@ -5,6 +5,7 @@ import com.nou.lc.ListNode;
 /**
  * https://leetcode-cn.com/problems/reverse-linked-list/
  * reverse link list
+ * 思路: 使用双指针来解决
  */
 public class LC206_1 {
 
