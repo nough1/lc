@@ -11,24 +11,25 @@ public class LC92_1 {
 
     public ListNode reverseBetween(ListNode head, int left, int right) {
 
+        // 边界情况
+        if(left==right){
+            return head;
+        }
+
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
 
         // 第一步，先进行 m 到 n 之间的节点进行反转 .
 
-        ListNode leftNode = head;
+        ListNode leftNode = dummy;
 
-        for(int i=0;i<left-2;i++){
+        for(int i=0;i<left-1;i++){
 
             leftNode = leftNode.next;
 
         }
 
         // 第二步骤 : 反转 left 到 right
-
-        if(left==right){
-            return dummy.next;
-        }
 
         ListNode changeNode = leftNode.next.next;
         ListNode preNode = leftNode.next;
