@@ -46,4 +46,58 @@ public class LC138 {
         return oldToCopyMap.get(head);
     }
 
+
+    // 思路一解法
+
+    public Node copyRandomList1(Node head) {
+
+
+        // 第一步: 复制新的小弟
+
+        Node current = head;
+        while (current!=null){
+
+            Node copyNode = new Node(current.val);
+            Node originalNext = current.next;
+            current.next = copyNode;
+            copyNode.next = originalNext;
+            current = originalNext;
+        }
+
+
+        // 第二步: 复制 random
+
+        current = head;
+
+        while (current!=null){
+
+            Node oldRandomNode = current.random;
+            if(oldRandomNode!=null) {
+                current.next.random = oldRandomNode.next;
+            }
+            current = current.next.next;
+        }
+
+
+        // 第三步: 提取新链表,这里比较烧脑，花了比较多的时间，需要复习下.
+
+        current = head;
+        Node dummy = new Node(-1);
+        Node newLinkCurrent = dummy;
+        while (current!=null){
+
+            // 新链表追加
+            newLinkCurrent.next = current.next;
+            // 老链表删除
+            current.next = current.next.next;
+            // 移动到下一个迭代节点
+            current = current.next;
+
+            // 新链表位置移动
+            newLinkCurrent = newLinkCurrent.next;
+
+        }
+        return dummy.next;
+    }
+
 }
