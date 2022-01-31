@@ -33,12 +33,8 @@ public class LC19 {
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
         current = dummy;
-        while (current!=null){
+        while (current!=null && index<position){
 
-            // 这个在前面还是在后面影响很大，没有想清楚，得模拟下.
-            if(index>=position){
-                break;
-            }
             current = current.next;
             index++;
 
