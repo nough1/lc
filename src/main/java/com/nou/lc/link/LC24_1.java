@@ -6,6 +6,7 @@ import com.nou.lc.ListNode;
  * swap nodes in pairs
  * https://leetcode.com/problems/swap-nodes-in-pairs/
  * key point : must note that the point direction .
+ * 注意赋值的先后关系
  */
 public class LC24_1 {
 
@@ -16,17 +17,17 @@ public class LC24_1 {
         dummy.next = head;
 
         ListNode current = dummy;
-        ListNode a = dummy.next;
 
-        while (a!=null && a.next!=null){
 
+        while (current.next!=null && current.next.next!=null){
+
+            ListNode a = current.next;
             ListNode b = a.next;
             current.next = b;
             a.next = b.next;
             b.next = a;
 
             current = current.next.next;
-            a = current.next;
 
         }
 
