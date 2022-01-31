@@ -4,6 +4,9 @@ public class ListNode {
 
     public int val;
     public ListNode next;
+
+    public ListNode random;
+
     ListNode(){}
 
     public ListNode(int val){
