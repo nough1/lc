@@ -22,6 +22,7 @@ public class LC239 {
         for(int i=0;i<n;i++){
 
             // 这个是做什么,确保窗口大小为 k , 以 i 结尾的滑动窗口的起点是 i-k+1
+            // 记住 first 与 last 的图形上的先后关系 ,左边是 first , 右边是 last
 
             while (windows.size()>0 && windows.peekFirst()<=i-k){
                 windows.pollFirst();
