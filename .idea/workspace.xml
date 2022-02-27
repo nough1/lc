@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC240.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/recusion/LC241.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/LC258.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/array/LC41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/digits/LC238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/tree/LC257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/twopointers/LC42.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/recusion/LC241.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/recusion/LC241.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640268507793</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add">
-      <created>1640444275644</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1640444275644</updated>
     </task>
     <task id="LOCAL-00006" summary="j的边界初始值bug">
       <created>1640532145362</created>
@@ -461,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645319215880</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="sliding window">
+      <created>1645324802725</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1645324802725</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -480,11 +485,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
-    <state x="308" y="25" key="CommitChangelistDialog2" timestamp="1645319215679">
+    <state x="308" y="25" key="CommitChangelistDialog2" timestamp="1645324802284">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1641115128434" />
-    <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1645319215679" />
+    <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1645324802284" />
     <state width="1236" height="158" key="GridCell.Tab.0.bottom" timestamp="1642999314092">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
@@ -510,11 +515,11 @@
     </state>
     <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
     <state x="198" y="25" key="SettingsEditor/0.25.1280.690@0.25.1280.690" timestamp="1642692232365" />
-    <state x="286" y="127" key="Vcs.Push.Dialog.v2" timestamp="1645319217220">
+    <state x="286" y="127" key="Vcs.Push.Dialog.v2" timestamp="1645324804157">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1641115129720" />
-    <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1645319217220" />
+    <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1645324804157" />
     <state x="355" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1642692250772">
       <screen x="0" y="25" width="1280" height="690" />
     </state>

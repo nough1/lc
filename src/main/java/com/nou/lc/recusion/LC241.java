@@ -23,9 +23,9 @@ public class LC241 {
                 List<Integer> leftExpressionWays= diffWaysToCompute(leftExpression);
                 String rightExpression = expression.substring(i+1);
                 List<Integer> rightExpressionWays= diffWaysToCompute(rightExpression);
-                for(int x=0;x<leftExpressionWays.size();x++){
+                for(int x:leftExpressionWays){
 
-                    for(int y=0;y<rightExpressionWays.size();y++){
+                    for(int y:rightExpressionWays){
 
                         if(character=='+'){
                             result.add(x+y);
