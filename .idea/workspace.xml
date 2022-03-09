@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/binarysearch/LC704.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/dynamicprogramming/LC10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/math/LC9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/hashtable/LC217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/recusion/LC70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/string/LC14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640268507793</updated>
-    </task>
-    <task id="LOCAL-00008" summary="j的边界初始值bug">
-      <created>1640706697255</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1640706697255</updated>
     </task>
     <task id="LOCAL-00009" summary="j的边界初始值bug">
       <created>1640794835316</created>
@@ -462,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646469231109</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="20220305">
+      <created>1646664760115</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1646664760116</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -483,11 +483,11 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
-    <state x="308" y="25" key="CommitChangelistDialog2" timestamp="1646469230804">
+    <state x="308" y="25" key="CommitChangelistDialog2" timestamp="1646664759821">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1641115128434" />
-    <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1646469230804" />
+    <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1646664759821" />
     <state width="1236" height="158" key="GridCell.Tab.0.bottom" timestamp="1642999314092">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
@@ -513,11 +513,11 @@
     </state>
     <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
     <state x="198" y="25" key="SettingsEditor/0.25.1280.690@0.25.1280.690" timestamp="1642692232365" />
-    <state x="286" y="127" key="Vcs.Push.Dialog.v2" timestamp="1646469234192">
+    <state x="286" y="127" key="Vcs.Push.Dialog.v2" timestamp="1646664761573">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1641115129720" />
-    <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1646469234192" />
+    <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1646664761573" />
     <state x="355" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1646446920932">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
