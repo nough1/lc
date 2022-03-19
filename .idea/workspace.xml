@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/binarysearch/LC475.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/bit/LC136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/dynamicprogramming/LC72.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/hashtable/LC128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/twopointers/LC16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/sword/offer/SO03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/sword/offer/SO09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/twopointers/LC88.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,13 +116,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640268507793</updated>
-    </task>
-    <task id="LOCAL-00011" summary="j的边界初始值bug">
-      <created>1641114894392</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1641114894392</updated>
     </task>
     <task id="LOCAL-00012" summary="j的边界初始值bug">
       <created>1641115128582</created>
@@ -466,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647050259884</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="20220305">
+      <created>1647657310075</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1647657310076</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -488,11 +482,12 @@
     </state>
     <state x="302" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1640268615451" />
     <state x="268" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1280.690@0.25.1280.690" timestamp="1647054124735" />
-    <state x="308" y="25" key="CommitChangelistDialog2" timestamp="1647050259706">
-      <screen x="0" y="25" width="1280" height="690" />
+    <state x="462" y="25" key="CommitChangelistDialog2" timestamp="1647657309805">
+      <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state x="346" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1641115128434" />
     <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1647050259706" />
+    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1647657309805" />
     <state width="1236" height="158" key="GridCell.Tab.0.bottom" timestamp="1642999314092">
       <screen x="0" y="25" width="1280" height="690" />
     </state>
@@ -513,16 +508,18 @@
     </state>
     <state width="1358" height="228" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1641305899411" />
     <state width="1236" height="158" key="GridCell.Tab.0.right/0.25.1280.690@0.25.1280.690" timestamp="1642999314091" />
-    <state x="198" y="25" key="SettingsEditor" timestamp="1642692232365">
-      <screen x="0" y="25" width="1280" height="690" />
+    <state x="297" y="25" key="SettingsEditor" timestamp="1647678918249">
+      <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state x="223" y="40" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1640439543044" />
     <state x="198" y="25" key="SettingsEditor/0.25.1280.690@0.25.1280.690" timestamp="1642692232365" />
-    <state x="286" y="127" key="Vcs.Push.Dialog.v2" timestamp="1647050261109">
-      <screen x="0" y="25" width="1280" height="690" />
+    <state x="297" y="25" key="SettingsEditor/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1647678918249" />
+    <state x="429" y="168" key="Vcs.Push.Dialog.v2" timestamp="1647657311373">
+      <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state x="322" y="141" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1641115129720" />
     <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1647050261109" />
+    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1647657311373" />
     <state x="533" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1647563457752">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
