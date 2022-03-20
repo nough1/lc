@@ -26,6 +26,8 @@ public class LC43 {
 
                 // 这里是关键
                 int product = (num1CharArray[i]-'0')*(num2CharArray[j]-'0');
+
+                // 这里 i+j+1 需要思考
                 int tmp = result[i+j+1] -'0'+product;
 
                 // 这里的转换加 '0' 需要注意 .
