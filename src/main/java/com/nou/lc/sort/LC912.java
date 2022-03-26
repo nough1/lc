@@ -16,7 +16,7 @@ public class LC912 {
     public void quicksort(int[] nums,int low,int high){
 
 
-
+        // base case
         if(low>=high){
             return;
         }
