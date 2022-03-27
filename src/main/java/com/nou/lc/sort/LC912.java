@@ -3,6 +3,12 @@ package com.nou.lc.sort;
 
 /**
  * https://leetcode.com/problems/sort-an-array/
+ *
+ * reference : https://www.youtube.com/watch?v=h8eyY7dIiN4
+ *
+ * merge sort
+ * https://www.youtube.com/watch?v=bOk35XmHPKs
+ *
  */
 public class LC912 {
 
