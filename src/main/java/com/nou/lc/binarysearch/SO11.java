@@ -7,7 +7,7 @@ public class SO11 {
 
     public int minArray(int[] numbers) {
 
-        // todo 理解
+        // todo 理解 - binary search 这个边界有点难以理解
         int low=0,high = numbers.length-1;
 
         while (low < high) {
