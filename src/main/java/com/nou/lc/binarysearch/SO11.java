@@ -17,6 +17,8 @@ public class SO11 {
             } else if (numbers[pivot] > numbers[high]) {
                 low = pivot + 1;
             } else {
+
+                // 这是为什么？
                 high -= 1;
             }
         }
