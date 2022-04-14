@@ -11,6 +11,7 @@ public class LC349 {
 
     public int[] intersection(int[] nums1, int[] nums2) {
 
+        // 卡在了 primitive to list 上
         Set<Integer> set1 = Arrays.stream(nums1).boxed().collect(Collectors.toSet());
         Set<Integer> set2 = Arrays.stream(nums2).boxed().collect(Collectors.toSet());
 
