@@ -5,6 +5,11 @@ import java.util.stream.Collectors;
 
 /**
  * https://leetcode.com/problems/intersection-of-two-arrays/submissions/
+ * https://www.youtube.com/watch?v=XxStWmfXJRs
+ * three solution
+ * set
+ * sort and binary search
+ * two pointers
  */
 public class LC349 {
 
