@@ -7,6 +7,7 @@ import java.util.PriorityQueue;
  * https://leetcode-cn.com/problems/smallest-k-lcci/
  * solution : https://github.com/eirture/leetcode/blob/master/algorithms/1000021-smallest-k-lcci.md
  * https://python.iitter.com/other/31614.html
+ * 参考 leetcode 215
  */
 public class Interview17 {
 
