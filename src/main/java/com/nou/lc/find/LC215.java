@@ -4,6 +4,8 @@ package com.nou.lc.find;
  * kth largest 问题 .
  * https://leetcode.com/problems/kth-largest-element-in-an-array/
  * 思路 : quick select 算法
+ * 04-17 : 没看懂代码逻辑，后续需要把当时是从哪里弄懂的资料也弄进来, 要不然回顾的时候
+ * 完全看不懂
  */
 public class LC215 {
 
