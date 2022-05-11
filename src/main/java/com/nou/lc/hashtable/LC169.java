@@ -1,5 +1,7 @@
 package com.nou.lc.hashtable;
 
+import java.util.Calendar;
+
 /**
  * https://leetcode-cn.com/problems/majority-element/
  * boyer https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm#Description)
@@ -23,5 +25,12 @@ public class LC169 {
             }
         }
         return res ;
+    }
+
+    public static void main(String[] args) {
+
+        Calendar calendar = Calendar.getInstance();
+        calendar.add(Calendar.HOUR,55);
+        System.out.println(calendar.getTime());
     }
 }
