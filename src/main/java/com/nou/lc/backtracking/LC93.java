@@ -17,6 +17,42 @@ public class LC93 {
             return result;
         }
 
-        return  null ;
+        restoreIp(s,result,"",0,0);
+
+        return  result ;
+    }
+
+    public void restoreIp(String s,List<String> result,String restored,int index ,int count){
+
+
+        if(count>4){
+            return;
+        }
+
+        // error2 missing index==s.length()
+        if(count==4 && index==s.length()){
+            result.add(restored);
+            return;
+        }
+
+        for(int i=1;i<4;i++){
+
+            // error1 equal
+            if(index+i>s.length()){
+                break;
+            }
+            String section = s.substring(index,index+i);
+
+            if(section.charAt(0)=='0' && section.length()>1){
+                continue;
+            }
+
+            if(Integer.valueOf(section)>255){
+                continue;
+            }
+
+            restoreIp(s,result,restored+section+(count==3?"":"."),index+i,count+1);
+
+        }
     }
 }
