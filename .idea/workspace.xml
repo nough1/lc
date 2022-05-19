@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/backtracking/LC78.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/backtracking/LC93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/backtracking/LC93.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,13 +130,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640268507793</updated>
-    </task>
-    <task id="LOCAL-00043" summary="ceshi">
-      <created>1643792935068</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1643792935068</updated>
     </task>
     <task id="LOCAL-00044" summary="ceshi">
       <created>1643877684919</created>
@@ -474,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652744088541</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="leetcode 179">
+      <created>1652832188034</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1652832188034</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -496,21 +496,23 @@
       <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="268" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1280.690@0.25.1280.690" timestamp="1647054124735" />
-    <state x="462" y="25" key="CommitChangelistDialog2" timestamp="1652744088341">
-      <screen x="0" y="25" width="1920" height="970" />
+    <state x="462" y="25" key="CommitChangelistDialog2" timestamp="1652832187715">
+      <screen x="0" y="25" width="1920" height="973" />
     </state>
     <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1647050259706" />
     <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1652744088341" />
+    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1652832187715" />
     <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.979@0.25.1920.979" timestamp="1652312502191" />
     <state x="297" y="25" key="SettingsEditor" timestamp="1647678918249">
       <screen x="0" y="25" width="1920" height="970" />
     </state>
     <state x="297" y="25" key="SettingsEditor/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1647678918249" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2" timestamp="1652744090027">
-      <screen x="0" y="25" width="1920" height="970" />
+    <state x="429" y="168" key="Vcs.Push.Dialog.v2" timestamp="1652832189340">
+      <screen x="0" y="25" width="1920" height="973" />
     </state>
     <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1647050261109" />
     <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1652744090027" />
+    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1652832189339" />
     <state x="429" y="169" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.979@0.25.1920.979" timestamp="1652312503675" />
     <state x="533" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1648303632843">
       <screen x="0" y="25" width="1920" height="970" />
@@ -525,11 +527,12 @@
       <screen x="0" y="25" width="1280" height="690" />
     </state>
     <state x="305" y="163" width="670" height="675" key="run.anything.popup/0.25.1280.690@0.25.1280.690" timestamp="1646534994293" />
-    <state x="458" y="25" width="1005" height="951" key="search.everywhere.popup" timestamp="1650161185894">
-      <screen x="0" y="25" width="1920" height="970" />
+    <state x="458" y="25" width="1005" height="954" key="search.everywhere.popup" timestamp="1652916508642">
+      <screen x="0" y="25" width="1920" height="973" />
     </state>
     <state x="305" y="25" width="670" height="676" key="search.everywhere.popup/0.25.1280.690@0.25.1280.690" timestamp="1647141985294" />
     <state x="458" y="25" width="1005" height="951" key="search.everywhere.popup/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1650161185894" />
+    <state x="458" y="25" width="1005" height="954" key="search.everywhere.popup/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1652916508642" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
