@@ -52,6 +52,7 @@ public class LC79 {
                 return true;
             }
         }
+        // 为什么要还原
         board[row][col]=temp;
         return false;
 
