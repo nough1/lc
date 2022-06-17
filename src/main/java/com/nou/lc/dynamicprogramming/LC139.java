@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * https://leetcode.com/problems/word-break/discuss/43790/Java-implementation-using-DP-in-two-ways
- *
+ * https://www.youtube.com/watch?v=Sx9NNgInc3A
  */
 public class LC139 {
 
