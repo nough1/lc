@@ -26,6 +26,7 @@ public class LC105 {
         if(preStart>preEnd || inStart>inEnd){
             return null ;
         }
+
         TreeNode root = new TreeNode(preorder[preStart]);
         int inRootIndex = indexMap.get(preorder[preStart]);
         int numsLeft = inRootIndex - inStart;
