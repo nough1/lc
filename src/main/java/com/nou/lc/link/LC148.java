@@ -7,6 +7,7 @@ import com.nou.lc.ListNode;
  * https://leetcode.com/problems/sort-list/
  * 解题思路 : 归并排序递归解法 ,先拆成两部分，然后进行合并 , 但是这个是 o(n) 的空间，
  * 所以需要使用 bottom up  的做法.
+ * 好久没有写双指针了，都有点忘记了，但是基础还在，写起来还挺快，出错的不错.
  */
 public class LC148 {
 
