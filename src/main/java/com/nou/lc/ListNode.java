@@ -7,7 +7,7 @@ public class ListNode {
 
     public ListNode random;
 
-    ListNode(){}
+    public ListNode(){}
 
     public ListNode(int val){
         this.val = val;
