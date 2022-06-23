@@ -15,5 +15,6 @@ public class LC338 {
             dp[i] = dp[i/2]+i%2;
         }
         return dp ;
+
     }
 }
