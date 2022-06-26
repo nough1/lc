@@ -64,22 +64,22 @@ public class LC494 {
     }
 
 
-    public int backtrack(int index,int currSum,int[] nums,int target){
+    public int backtrack(int index,int preSum,int[] nums,int target){
 
         if(index==nums.length){
-            if(target==currSum){
+            if(target==preSum){
                 return 1;
             }else {
                 return 0;
             }
         }
 
-        DecisionNode currNode = new DecisionNode(index,currSum);
+        DecisionNode currNode = new DecisionNode(index,preSum);
         if(map.containsKey(currNode)){
             return map.get(currNode);
         }
-        // 这里 currSum 的理解，有点绕 , 如果用 currSum+nums[index+1] 会 outofbound
-        int total = backtrack(index+1,currSum+nums[index],nums,target)+backtrack(index+1,currSum-nums[index],nums,target);
+        // 这里 currSum 的理解，有点绕 , 如果用 currSum+nums[index+1] 会 outofbound , 换个词会比较好理解 .
+        int total = backtrack(index+1,preSum+nums[index],nums,target)+backtrack(index+1,preSum-nums[index],nums,target);
         map.put(currNode,total);
 
         return total;
