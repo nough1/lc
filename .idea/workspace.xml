@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/dynamicprogramming/LC62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/hashtable/LC49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/language/base/CharTest.java" afterDir="false" />
+    <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="leetcode 179">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/stack/LC394.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,21 +23,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22goI2GySf0Et42vKI4dZjub8ek" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -122,6 +121,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,62 +132,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640268507793</updated>
-    </task>
-    <task id="LOCAL-00051" summary="sliding window">
-      <created>1645319142955</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1645319142955</updated>
-    </task>
-    <task id="LOCAL-00052" summary="sliding window">
-      <created>1645319196852</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1645319196852</updated>
-    </task>
-    <task id="LOCAL-00053" summary="sliding window">
-      <created>1645319215880</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1645319215880</updated>
-    </task>
-    <task id="LOCAL-00054" summary="sliding window">
-      <created>1645324802725</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1645324802725</updated>
-    </task>
-    <task id="LOCAL-00055" summary="two hard problem">
-      <created>1645968639657</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1645968639657</updated>
-    </task>
-    <task id="LOCAL-00056" summary="20220305">
-      <created>1646469231106</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1646469231109</updated>
-    </task>
-    <task id="LOCAL-00057" summary="20220305">
-      <created>1646664760115</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1646664760116</updated>
-    </task>
-    <task id="LOCAL-00058" summary="20220305">
-      <created>1646827743943</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1646827743943</updated>
     </task>
     <task id="LOCAL-00059" summary="20220305">
       <created>1647050259884</created>
@@ -476,8 +420,75 @@
       <option name="project" value="LOCAL" />
       <updated>1655300147440</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="leetcode 179">
+      <created>1655392990320</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1655392990320</updated>
+    </task>
+    <task id="LOCAL-00101" summary="leetcode 179">
+      <created>1655393705706</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1655393705706</updated>
+    </task>
+    <task id="LOCAL-00102" summary="leetcode 179">
+      <created>1655482934308</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1655482934308</updated>
+    </task>
+    <task id="LOCAL-00103" summary="leetcode 179">
+      <created>1655482969718</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1655482969718</updated>
+    </task>
+    <task id="LOCAL-00104" summary="leetcode 179">
+      <created>1655537997489</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1655537997489</updated>
+    </task>
+    <task id="LOCAL-00105" summary="leetcode 179">
+      <created>1655540712914</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1655540712914</updated>
+    </task>
+    <task id="LOCAL-00106" summary="leetcode 179">
+      <created>1655542258328</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1655542258328</updated>
+    </task>
+    <task id="LOCAL-00107" summary="leetcode 179">
+      <created>1655994297637</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1655994297639</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
@@ -492,58 +503,6 @@
     <MESSAGE value="20220305" />
     <MESSAGE value="leetcode 179" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode 179" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="268" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1647054124735">
-      <screen x="0" y="25" width="1280" height="690" />
-    </state>
-    <state x="268" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1280.690@0.25.1280.690" timestamp="1647054124735" />
-    <state x="462" y="25" key="CommitChangelistDialog2" timestamp="1655300147275">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="308" y="25" key="CommitChangelistDialog2/0.25.1280.690@0.25.1280.690" timestamp="1647050259706" />
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655300147275" />
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.971@0.25.1920.971" timestamp="1653099341593" />
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1653003670243" />
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.979@0.25.1920.979" timestamp="1652312502191" />
-    <state x="192" y="108" key="MergeDialog" timestamp="1655300119462">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="192" y="108" key="MergeDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655300119462" />
-    <state x="673" y="230" key="MultipleFileMergeDialog" timestamp="1655300125174">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="673" y="230" key="MultipleFileMergeDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655300125174" />
-    <state x="297" y="25" key="SettingsEditor" timestamp="1647678918249">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="297" y="25" key="SettingsEditor/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1647678918249" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2" timestamp="1655300148845">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="286" y="127" key="Vcs.Push.Dialog.v2/0.25.1280.690@0.25.1280.690" timestamp="1647050261109" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655300148845" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.971@0.25.1920.971" timestamp="1653099342871" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1653003671744" />
-    <state x="429" y="169" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.979@0.25.1920.979" timestamp="1652312503675" />
-    <state x="533" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1648303632843">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="533" y="282" key="com.intellij.ide.util.TipDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1648303632843" />
-    <state x="404" y="150" width="1116" height="729" key="find.popup" timestamp="1649805124509">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="404" y="150" width="1116" height="729" key="find.popup/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1649805124509" />
-    <state x="700" y="305" key="git4idea.merge.GitPullDialog" timestamp="1655300081821">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="700" y="305" key="git4idea.merge.GitPullDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655300081821" />
-    <state x="458" y="25" width="1005" height="951" key="search.everywhere.popup" timestamp="1653345846006">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="305" y="25" width="670" height="676" key="search.everywhere.popup/0.25.1280.690@0.25.1280.690" timestamp="1647141985294" />
-    <state x="458" y="25" width="1005" height="951" key="search.everywhere.popup/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1653345846006" />
-    <state x="458" y="25" width="1005" height="954" key="search.everywhere.popup/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1652916508642" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
