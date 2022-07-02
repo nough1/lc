@@ -10,6 +10,7 @@ package com.nou.lc.twopointers;
 public class LC125 {
 
 
+
     public boolean isPalindrome(String s) {
 
         if(s.isEmpty()){
