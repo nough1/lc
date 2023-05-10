@@ -2,7 +2,7 @@ package com.nou.design.pattern.singleton;
 
 public class LazySingleton {
 
-    private static LazySingleton singleton;
+    private static volatile  LazySingleton singleton;
 
     private LazySingleton(){
 
@@ -29,7 +29,7 @@ public class LazySingleton {
         return singleton;
     }
 
-    
+
     public static synchronized LazySingleton syncGetInstance(){
 
         if(singleton==null){
