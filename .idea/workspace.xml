@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="leetcode 179">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/design/pattern/singleton/InnerClassSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/design/pattern/singleton/EnumSingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +44,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="LC18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nou.lc.bit.LC18" />
+  <component name="RunManager" selected="Application.EnumSingleton">
+    <configuration name="EnumSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nou.design.pattern.singleton.EnumSingleton" />
       <module name="com.nou.2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nou.lc.bit.*" />
+          <option name="PATTERN" value="com.nou.design.pattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumSingleton" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.PossibleReordering" />
         <item itemvalue="Application.RangeListTest" />
-        <item itemvalue="Application.LC18" />
       </list>
     </recent_temporary>
   </component>
