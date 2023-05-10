@@ -10,10 +10,40 @@ public class HJ59 {
         String ip = sc.next();
         String value = sc.next();
 
-        ipToLong(ip);
-        long2Ip(Long.valueOf(value));
+        ipToLongByBitOperation(ip);
+        longToIpByBitOperation(Long.valueOf(value));
 
 
+    }
+
+    /**
+     * 通过位运算解决
+     * @param ip
+     */
+    public static void ipToLongByBitOperation(String ip){
+
+        String[] parts = ip.split("\\.");
+        Long a = Long.valueOf(parts[0]);
+        Long newA = a<<24;
+        Long b = Long.valueOf(parts[1]);
+        Long newB = b<<16;
+        Long c = Long.valueOf(parts[2]);
+        Long newC = c<<8;
+        Long d = Long.valueOf(parts[3]);
+
+        System.out.println(newB+newA+newC+d);
+
+    }
+
+    public static void longToIpByBitOperation(Long longValue){
+
+        long a = longValue&0xff000000>>24;
+        long b = longValue&0x00ff0000>>16;
+        long c = longValue&0x0000ff00>>8;
+        long d = longValue&0x000000ff;
+
+        System.out.println(a+"."+b+"."+c+"."+d)
+        ;
     }
 
     public static void ipToLong(String ip){
