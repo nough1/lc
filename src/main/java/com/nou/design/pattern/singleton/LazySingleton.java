@@ -29,4 +29,13 @@ public class LazySingleton {
         return singleton;
     }
 
+    
+    public static synchronized LazySingleton syncGetInstance(){
+
+        if(singleton==null){
+            singleton = new LazySingleton();
+        }
+        return singleton;
+    }
+
 }
