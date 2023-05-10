@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="leetcode 179">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/dynamicprogramming/LC118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/hashtable/LC202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/hashtable/LC268.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/recursion/LC326.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/design/pattern/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/interview/RangeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/interview/RangeListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/jmm/PossibleReordering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/concurrency/LC1117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC21_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/string/LC557_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/nowcoder/HJ65.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/thread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.nou.2022.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC160.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/language/base/CharTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/language/base/CharTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,34 +45,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="22goI2GySf0Et42vKI4dZjub8ek" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LC169">
-    <configuration name="LC1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nou.lc.LC1" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="LC18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nou.lc.bit.LC18" />
       <module name="com.nou.2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nou.lc.*" />
+          <option name="PATTERN" value="com.nou.lc.bit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +77,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nou.lc.hashtable.LC169" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="com.nou.2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="com.nou.2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nou.lc.hashtable.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nou.lc.structure.LC20" />
+    <configuration name="PossibleReordering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nou.jmm.PossibleReordering" />
       <module name="com.nou.2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nou.lc.structure.*" />
+          <option name="PATTERN" value="com.nou.jmm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nou.lc.LC3" />
+    <configuration name="RangeListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nou.interview.RangeListTest" />
       <module name="com.nou.2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nou.lc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nou.lc.bs.LC69" />
-      <module name="com.nou.2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nou.lc.bs.*" />
+          <option name="PATTERN" value="com.nou.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,14 +125,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LC169" />
-        <item itemvalue="Application.LC69" />
-        <item itemvalue="Application.LC3" />
-        <item itemvalue="Application.LC20" />
-        <item itemvalue="Application.LC1" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.PossibleReordering" />
+        <item itemvalue="Application.RangeListTest" />
+        <item itemvalue="Application.LC18" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -133,62 +144,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640268507793</updated>
-    </task>
-    <task id="LOCAL-00068" summary="20220305">
-      <created>1648342821193</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1648342821194</updated>
-    </task>
-    <task id="LOCAL-00069" summary="20220305">
-      <created>1648343103899</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1648343103900</updated>
-    </task>
-    <task id="LOCAL-00070" summary="20220305">
-      <created>1648343221238</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1648343221238</updated>
-    </task>
-    <task id="LOCAL-00071" summary="20220305">
-      <created>1648770088194</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1648770088194</updated>
-    </task>
-    <task id="LOCAL-00072" summary="20220305">
-      <created>1649471004907</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1649471004907</updated>
-    </task>
-    <task id="LOCAL-00073" summary="20220305">
-      <created>1649489212176</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1649489212176</updated>
-    </task>
-    <task id="LOCAL-00074" summary="20220305">
-      <created>1649631598406</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1649631598406</updated>
-    </task>
-    <task id="LOCAL-00075" summary="20220305">
-      <created>1649718976643</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1649718976644</updated>
     </task>
     <task id="LOCAL-00076" summary="20220305">
       <created>1649974673476</created>
@@ -477,7 +432,63 @@
       <option name="project" value="LOCAL" />
       <updated>1656729194372</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="leetcode 179">
+      <created>1657584099773</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1657584099774</updated>
+    </task>
+    <task id="LOCAL-00118" summary="leetcode 179">
+      <created>1657668321470</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1657668321470</updated>
+    </task>
+    <task id="LOCAL-00119" summary="leetcode 179">
+      <created>1657842434139</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1657842434139</updated>
+    </task>
+    <task id="LOCAL-00120" summary="leetcode 179">
+      <created>1658536932815</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1658536932816</updated>
+    </task>
+    <task id="LOCAL-00121" summary="leetcode 179">
+      <created>1658793783086</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1658793783087</updated>
+    </task>
+    <task id="LOCAL-00122" summary="leetcode 179">
+      <created>1669161125098</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1669161125099</updated>
+    </task>
+    <task id="LOCAL-00123" summary="stack">
+      <created>1669518913199</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1669518913200</updated>
+    </task>
+    <task id="LOCAL-00124" summary="leetcode 179">
+      <created>1671958555695</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1671958555696</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -491,65 +502,9 @@
     <MESSAGE value="sliding window" />
     <MESSAGE value="two hard problem" />
     <MESSAGE value="20220305" />
+    <MESSAGE value="stack" />
     <MESSAGE value="leetcode 179" />
     <option name="LAST_COMMIT_MESSAGE" value="leetcode 179" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser" timestamp="1656114200332">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="773" y="198" key="#com.intellij.ide.util.MemberChooser/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1656114200332" />
-    <state x="810" y="403" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1655422127980">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="810" y="403" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655422127980" />
-    <state x="462" y="25" key="CommitChangelistDialog2" timestamp="1656729194181">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1656729194181" />
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.971@0.25.1920.971" timestamp="1653099341593" />
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1653003670243" />
-    <state x="462" y="25" key="CommitChangelistDialog2/1920.25.1440.875/0.25.1920.979@0.25.1920.979" timestamp="1652312502191" />
-    <state x="192" y="108" key="MergeDialog" timestamp="1655300119462">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="192" y="108" key="MergeDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655300119462" />
-    <state x="673" y="230" key="MultipleFileMergeDialog" timestamp="1655300125174">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="673" y="230" key="MultipleFileMergeDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1655300125174" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2" timestamp="1656729195480">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1656729195480" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.971@0.25.1920.971" timestamp="1653099342871" />
-    <state x="429" y="168" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1653003671744" />
-    <state x="429" y="169" key="Vcs.Push.Dialog.v2/1920.25.1440.875/0.25.1920.979@0.25.1920.979" timestamp="1652312503675" />
-    <state x="533" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1648303632843">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="533" y="282" key="com.intellij.ide.util.TipDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1648303632843" />
-    <state x="404" y="150" width="1116" height="729" key="find.popup" timestamp="1649805124509">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="404" y="150" width="1116" height="729" key="find.popup/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1649805124509" />
-    <state x="710" y="305" key="git4idea.merge.GitMergeDialog" timestamp="1656028151756">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="710" y="305" key="git4idea.merge.GitMergeDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1656028151756" />
-    <state x="700" y="305" key="git4idea.merge.GitPullDialog" timestamp="1656729177535">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="700" y="305" key="git4idea.merge.GitPullDialog/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1656729177535" />
-    <state x="625" y="233" width="670" height="675" key="run.anything.popup" timestamp="1656731271465">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="625" y="233" width="670" height="675" key="run.anything.popup/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1656731271465" />
-    <state x="458" y="25" width="1005" height="951" key="search.everywhere.popup" timestamp="1653345846006">
-      <screen x="0" y="25" width="1920" height="970" />
-    </state>
-    <state x="458" y="25" width="1005" height="951" key="search.everywhere.popup/1920.25.1440.875/0.25.1920.970@0.25.1920.970" timestamp="1653345846006" />
-    <state x="458" y="25" width="1005" height="954" key="search.everywhere.popup/1920.25.1440.875/0.25.1920.973@0.25.1920.973" timestamp="1652916508642" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -558,6 +513,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/nou/lc/LC3.java</url>
           <line>68</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre-sources.jar!/com/google/common/base/Stopwatch.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -22,4 +22,23 @@ public class LC160 {
         return p ;
     }
 
+    /**
+     * 获取相交的节点
+     * @param headA
+     * @param headB
+     * @return
+     */
+    public ListNode getIntersectionNodeNew(ListNode headA, ListNode headB) {
+
+        ListNode a = headA , b= headB;
+        while (a!=b){
+
+            a = a!=null?a.next:headB;
+            b = b!=null?b.next:headA;
+
+        }
+
+        return a;
+    }
+
 }
