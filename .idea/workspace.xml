@@ -5,27 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="015fd60c-46e8-497f-9b3d-f78e6af983e1" name="Default Changelist" comment="leetcode 179">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/design/pattern/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/interview/RangeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/interview/RangeListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/jmm/PossibleReordering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/concurrency/LC1117.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC21_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/string/LC557_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/nowcoder/HJ65.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/thread/ThreadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nou/design/pattern/singleton/LazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.nou.2022.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC160.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nou/lc/link/LC160.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/language/base/CharTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/language/base/CharTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/org/example/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
